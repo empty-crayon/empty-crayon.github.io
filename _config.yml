@@ -26,7 +26,7 @@ permalink: pretty
 # Social settings
 social_sites:
   github: empty-crayon
-  # instagram: emptycrayon
+  instagram: emptycrayon
 
 # Build settings
 markdown: kramdown
