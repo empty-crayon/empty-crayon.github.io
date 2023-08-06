@@ -25,13 +25,8 @@ permalink: pretty
 
 # Social settings
 social_sites:
-  github: emptycrayon
-  # twitter: ljvmiranda921
-  mastodon:
-    server: fosstodon.org
-    username: ljvmiranda
-
-rss: rss
+  github: empty-crayon
+  # instagram: emptycrayon
 
 # Build settings
 markdown: kramdown
@@ -47,10 +42,6 @@ kramdown:
 
 # Highlighter settings
 highlighter: rouge
-
-# Disqus
-# disqus:
-#  shortname: ljvmiranda921-github-io-1
 
 # Google analytics
 # google_analytics: UA-106021948-1
