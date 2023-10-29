@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Research work
+title: My Impossible List
 description: Research work of Chinmay Prakash
-permalink: /research/
+permalink: /impossible/
 ---
 
-### Publications
+<!-- ### Publications -->
 
 <!-- Also see my [Google
 Scholar](https://scholar.google.co.jp/citations?user=2RtnNKEAAAAJ&hl=en) and
@@ -20,7 +20,7 @@ profiles: -->
 - [Appliance Recognition using Hall-Effect Sensors and k-Nearest Neighbors for Power Management Systems](https://www.dropbox.com/s/iawdrt9rm73siw2/tencon2016power.pdf?dl=0) <br> L. J. V. Miranda, M. J. Gutierrez, S. M. Dumlao, and R. Reyes, “Appliance Recognition using Hall-Effect Sensors and k-Nearest Neighbors for Power Management Systems,” in _Proceedings of the 2016 IEEE Region 10 Conference 2016_, IEEE, November 2016.
 - [Expulsion from Eden: the saga of the Calauit Safari Island Park](https://www.dropbox.com/s/j36m11rvhbl963e/apeiron2016expulsion.pdf?dl=0) <br> L. J. V. Miranda, “Expulsion from Eden: the saga of the Calauit Safari Island Park,” _APEIRON Student Journal of Philosophy_, no. 8, pp. 201–219, 2016. ISBN: 1533659788. -->
 
-### Conferences
+<!-- ### Conferences -->
 
 <!--
 My Masters thesis involves the prediction of protein functions using
