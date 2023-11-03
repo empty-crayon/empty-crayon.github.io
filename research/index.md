@@ -41,11 +41,14 @@ This list is quite personal but I keep it here to keep myself accountable and mo
 - Learn Kannada (Hold at least 2-3 minute conversation with a local)
 - Create a three course meal and throw a dinner party for my friends
   - ~~Cook a meal from scratch~~
+- Learn Human Anatomy and use it to improve my figure drawing
+- Learn how to paint in Oils
 
 
 ### Insane Goals
 
 - Trek to Mt Everest base camp
+- Do an exhibition of my on Art
 - Learn how to surf
 - Bike on my Honda CB350 from Bengaluru to Goa
 - ~~Climb a mountain~~
