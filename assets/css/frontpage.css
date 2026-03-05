@@ -1,0 +1,326 @@
+:root {
+  --bg: #f5f3ef;
+  --fg: #101010;
+  --muted: #5e5e5e;
+  --line: #d1ccc3;
+  --surface: #ffffff;
+  --accent: #0f766e;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Berkeley Mono", monospace;
+}
+
+a {
+  color: var(--accent);
+}
+
+.site-header {
+  border-top: 0;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+}
+
+.site-title {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--fg);
+}
+
+.site-nav .page-link {
+  color: var(--fg);
+  font-size: 0.92rem;
+}
+
+.page-content {
+  padding-top: 2rem;
+}
+
+.wrapper {
+  max-width: 1050px;
+}
+
+.home-hero {
+  display: flex;
+  gap: 1.2rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 1.2rem;
+}
+
+.left {
+  flex: 0 0 220px;
+  text-align: center;
+}
+
+.right {
+  flex: 1;
+}
+
+#profilepic {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+}
+
+.kicker {
+  color: var(--muted);
+  text-transform: uppercase;
+  font-size: 0.74rem;
+  letter-spacing: 0.09em;
+  margin-bottom: 0.4rem;
+}
+
+.home-hero h1 {
+  margin: 0 0 0.7rem;
+  font-size: 2rem;
+}
+
+.hero-actions {
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-right: 0.6rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--fg);
+  color: var(--fg);
+  padding: 0.5rem 0.8rem;
+  text-decoration: none;
+}
+
+.btn.primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+
+.home-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.home-card {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 0.9rem;
+}
+
+.home-card .label {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  margin-bottom: 0.35rem;
+}
+
+.home-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.02rem;
+}
+
+.home-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.home-note {
+  margin-top: 0.8rem;
+  border: 1px dashed var(--line);
+  padding: 0.65rem 0.8rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.experience-page {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+}
+
+.xp-intro {
+  color: var(--muted);
+  margin: 0;
+  max-width: 75ch;
+  overflow-wrap: anywhere;
+}
+
+.xp-section {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.xp-kicker {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 0.72rem;
+  margin-bottom: 0.55rem;
+}
+
+.xp-item ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.xp-item li {
+  margin-bottom: 0.4rem;
+  overflow-wrap: anywhere;
+}
+
+.xp-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px dashed var(--line);
+}
+
+.xp-head h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.xp-head span {
+  color: var(--muted);
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.xp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.xp-card {
+  border: 1px solid var(--line);
+  background: #fcfbf9;
+  padding: 0.9rem;
+  min-width: 0;
+}
+
+.xp-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+}
+
+.xp-card p {
+  margin: 0;
+  color: #252525;
+  overflow-wrap: anywhere;
+}
+
+.xp-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.xp-chips span {
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.82rem;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.xp-projects {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.xp-project {
+  border: 1px solid var(--line);
+  background: #fcfbf9;
+  padding: 0.8rem;
+  min-width: 0;
+  border-left: 3px solid var(--accent);
+}
+
+.xp-project h3 {
+  margin: 0 0 0.35rem;
+  font-size: 0.98rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.xp-project p {
+  margin: 0;
+  color: #252525;
+  overflow-wrap: anywhere;
+}
+
+.xp-project a {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+article.post {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 1.2rem;
+}
+
+.post-title {
+  letter-spacing: 0;
+}
+
+.post-content p,
+.post-content li {
+  color: #252525;
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+}
+
+.footer-col-wrapper,
+.footer-heading {
+  color: var(--fg);
+}
+
+@media (max-width: 900px) {
+  .home-hero {
+    flex-direction: column;
+  }
+
+  .left {
+    flex-basis: auto;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .xp-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .xp-section {
+    padding: 0.85rem;
+  }
+
+  .xp-head span {
+    white-space: normal;
+  }
+}
